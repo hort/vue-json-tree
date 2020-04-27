@@ -120,7 +120,7 @@ export default {
 
 <style>
 .json-tree {
-  color: #394359;
+  color: #e4e7ea;
   display: flex;
   flex-direction: column;
   font-family: Menlo, Monaco, Consolas, monospace;
@@ -129,7 +129,7 @@ export default {
 }
 
 .json-tree-root {
-  background-color: #f7f8f9;
+  background-color: #2f353a;
   border-radius: 3px;
   margin: 2px 0;
   min-width: 560px;
@@ -144,7 +144,7 @@ export default {
 
 .json-tree-paired,
 .json-tree-row:hover {
-  background-color: #bce2ff;
+  background-color: #3a4149;
 }
 
 .json-tree-expando {
@@ -167,18 +167,18 @@ export default {
 }
 
 .json-tree-value-string {
-  color: #9aab3a;
+  color: #ffc107;
 }
 
 .json-tree-value-boolean {
-  color: #ff0080;
+  color: #4dbd74;
 }
 
 .json-tree-value-number {
-  color: #4f7096;
+  color: #20a8d8;
 }
 
 .json-tree-value-null {
-  color: #c7444a;
+  color: #e83e8c;
 }
 </style>
